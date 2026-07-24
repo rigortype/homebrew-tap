@@ -10,28 +10,28 @@
 class Steins < Formula
   desc "Value-precise static analyzer for PHP that reports only what provably breaks at runtime"
   homepage "https://github.com/rigortype/steins"
-  version "0.1.0-rc1"
-  license "AGPL-3.0-only"
+  version "0.1.0"
+  license "Apache-2.0"
 
   on_macos do
     on_arm do
-      url "https://github.com/rigortype/steins/releases/download/v0.1.0-rc1/steins-v0.1.0-rc1-aarch64-apple-darwin.tar.gz"
-      sha256 "4387e1280cdce9d192751390010631d87bdf79a34e86fb050245ea5953958a70"
+      url "https://github.com/rigortype/steins/releases/download/v0.1.0/steins-v0.1.0-aarch64-apple-darwin.tar.gz"
+      sha256 "2a7aec57a8e67a73c76402865f4d307b4cb52a6b593fad9883dca419b83fced8"
     end
     on_intel do
-      url "https://github.com/rigortype/steins/releases/download/v0.1.0-rc1/steins-v0.1.0-rc1-x86_64-apple-darwin.tar.gz"
-      sha256 "7f71c7cde42f48c3f042de506f21023d148cbb9d3b338bb0e124e2a44837e6ae"
+      url "https://github.com/rigortype/steins/releases/download/v0.1.0/steins-v0.1.0-x86_64-apple-darwin.tar.gz"
+      sha256 "5bee71cec0795b89e9b935aaf7cc0b750a1c7ff17a9a60661c084e59fbce9f49"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/rigortype/steins/releases/download/v0.1.0-rc1/steins-v0.1.0-rc1-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "d3def1fd11b7e4e12d9b4629a01b98f4a01b9f1bd0bdf1ec819e63ec26e4f452"
+      url "https://github.com/rigortype/steins/releases/download/v0.1.0/steins-v0.1.0-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "7b16df4f978f6ee36eb725bcfea5a5f112f0a674ab9c0f205ef3aa8e44cd5e63"
     end
     on_intel do
-      url "https://github.com/rigortype/steins/releases/download/v0.1.0-rc1/steins-v0.1.0-rc1-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "c6a0fe1432b1cf35b9eff0de92666aa8a58aa0f996a3008c84c07d3ad478bc3f"
+      url "https://github.com/rigortype/steins/releases/download/v0.1.0/steins-v0.1.0-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "846a28acedd5ad23c767cdd5019686ef45d21e2352d7634a0d614f91d7cca345"
     end
   end
 
