@@ -10,28 +10,28 @@
 class Steins < Formula
   desc "Value-precise static analyzer for PHP that reports only what provably breaks at runtime"
   homepage "https://github.com/rigortype/steins"
-  version "0.1.7"
+  version "0.1.8"
   license "Apache-2.0"
 
   on_macos do
     on_arm do
-      url "https://github.com/rigortype/steins/releases/download/v0.1.7/steins-v0.1.7-aarch64-apple-darwin.tar.gz"
-      sha256 "9f9c3dbd43bf5a056ed2b20868c0c0b5e54d97a735e9a051c9d46bdca2acbdc6"
+      url "https://github.com/rigortype/steins/releases/download/v0.1.8/steins-v0.1.8-aarch64-apple-darwin.tar.gz"
+      sha256 "b32ef2ec45b7a3fb7a88753bcdc0654f9fecaeaab19ce23e4a9680dddefd2f0f"
     end
     on_intel do
-      url "https://github.com/rigortype/steins/releases/download/v0.1.7/steins-v0.1.7-x86_64-apple-darwin.tar.gz"
-      sha256 "9ad63a0beaa86d91eef64a5b4d5a86432b12d3c9e42b6d19d1180c61ba5f04a2"
+      url "https://github.com/rigortype/steins/releases/download/v0.1.8/steins-v0.1.8-x86_64-apple-darwin.tar.gz"
+      sha256 "3107c3c20a874507e337f53b69fbb66afba10c356a0dfcdad79af6d839deaff6"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/rigortype/steins/releases/download/v0.1.7/steins-v0.1.7-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "1065af0abd0abfa8136c8878a0fc84e1e85821649d26dadb3e0278904058a759"
+      url "https://github.com/rigortype/steins/releases/download/v0.1.8/steins-v0.1.8-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "38486e9275d5d5eec6f5c8eb8f993544534b3f2ab2f38bba581a08729281bb8b"
     end
     on_intel do
-      url "https://github.com/rigortype/steins/releases/download/v0.1.7/steins-v0.1.7-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "68f971414802283150f34dac27cd5d3f754f1a2ebc5b9bc68aedd426319e70d5"
+      url "https://github.com/rigortype/steins/releases/download/v0.1.8/steins-v0.1.8-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "34568956b4a48578675ac82da019ffa5857b39993ebcc050fa3827108350cc7f"
     end
   end
 
